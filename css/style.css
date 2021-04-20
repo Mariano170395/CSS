@@ -1,0 +1,84 @@
+/*Reset, the * means that every element is selected
+*{
+	margin:0px;
+	padding:0px;
+}
+*/
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+
+	font-family: Impact, Charcoal, sans-serif;
+	font-size:15px;
+	font-weight:normal;
+
+	/* Same as above, just a more compact method*/
+	font:normal 15px Impact, Charcoal, sans-serif;
+
+	line-height:1.6em;
+	margin:0; 
+}
+
+/* margin:auto; pushes de class to the center*/
+.container{
+	width:80%;
+	margin:auto;
+}
+/* In order to target a class use a dot next to the class name */
+
+.box-1{
+	background-color:#333333; 
+	color:#ffffff;
+
+	border-right:5px red solid;
+	border-left:5px red solid; 
+	border-top:5px red solid; 
+	border-bottom:5px red solid; 
+
+	/* shorter method */
+
+	border:5px red solid; 
+	/*border-width:3px;
+	border-bottom-width:10px;
+	border-top-style:dotted;*/
+
+	padding:20px; 
+
+	margin:20px 0; 
+}
+/*
+Box Model
+Padding: The space betweem the element and its border
+border: border property, can be set with the width
+margin: spacing outside the border
+*/
+
+/* Margin and padding shorthand
+p{
+margin-top:5px;
+margin-bottom:5px;
+margin-right:10px;
+margin-left:10px;
+}
+
+however, i can use this method instead
+
+p{
+	margin:5px 10px 5px 10pb;
+}
+
+the order used is: top right bottom left
+
+I can make this shorter writing this:
+
+p{
+	margin:5px 10px
+}
+
+the order used is: top/bot right/left
+*/ 
+
+.box-1 h1{
+	font-family:Tahoma;
+
+}
